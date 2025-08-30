@@ -1,0 +1,279 @@
+/* General */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  line-height: 1.6;
+
+  color: #333;
+
+  background: #f9f9f9;
+
+}
+
+/* Navbar */
+
+header {
+
+  background: #222;
+
+  color: #fff;
+
+  padding: 1rem 2rem;
+
+  position: fixed;
+
+  width: 100%;
+
+  top: 0;
+
+  z-index: 1000;
+
+}
+
+.navbar {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+.nav-links {
+
+  list-style: none;
+
+  display: flex;
+
+}
+
+.nav-links li {
+
+  margin-left: 20px;
+
+}
+
+.nav-links a {
+
+  text-decoration: none;
+
+  color: white;
+
+  transition: 0.3s;
+
+}
+
+.nav-links a:hover {
+
+  color: #ff9800;
+
+}
+
+/* Sections */
+
+section {
+
+  padding: 100px 50px;
+
+  text-align: center;
+
+}
+
+.home {
+
+  background: url('https://picsum.photos/1200/700') no-repeat center center/cover;
+
+  color: white;
+
+  height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+.home-content h2 {
+
+  font-size: 2.5rem;
+
+}
+
+.highlight {
+
+  color: #ff9800;
+
+}
+
+.home button {
+
+  margin-top: 20px;
+
+  padding: 10px 20px;
+
+  background: #ff9800;
+
+  border: none;
+
+  color: white;
+
+  font-size: 1rem;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+}
+
+.home button:hover {
+
+  background: #e68900;
+
+}
+
+/* About */
+
+.about p {
+
+  max-width: 600px;
+
+  margin: auto;
+
+}
+
+/* Skills */
+
+.skills .skill-list {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+}
+
+.skill {
+
+  background: #ff9800;
+
+  color: white;
+
+  padding: 10px 20px;
+
+  margin: 10px;
+
+  border-radius: 5px;
+
+}
+
+/* Projects */
+
+.project-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 20px;
+
+}
+
+.project-card {
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+}
+
+.project-card:hover {
+
+  transform: scale(1.05);
+
+  transition: 0.3s;
+
+}
+
+/* Contact */
+
+.contact form {
+
+  max-width: 500px;
+
+  margin: auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+.contact input,
+
+.contact textarea {
+
+  margin: 10px 0;
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+}
+
+.contact button {
+
+  background: #ff9800;
+
+  color: white;
+
+  padding: 10px;
+
+  border: none;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+}
+
+.contact button:hover {
+
+  background: #e68900;
+
+}
+
+/* Footer */
+
+footer {
+
+  background: #222;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 15px;
+
+}
